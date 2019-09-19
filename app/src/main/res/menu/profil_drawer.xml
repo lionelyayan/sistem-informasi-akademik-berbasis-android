@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeProfil"
+            android:icon="@drawable/ic_username"
+            android:title="Profil" />
+        <item
+            android:id="@+id/pelajaran"
+            android:icon="@drawable/ic_schedule"
+            android:title="Jadwal Pelajaran" />
+        <item
+            android:id="@+id/kehadiran"
+            android:icon="@drawable/ic_pan_tool"
+            android:title="Kehadiran" />
+        <item
+            android:id="@+id/nilai"
+            android:icon="@drawable/ic_trending_up"
+            android:title="Transkrip Nilai" />
+        <item
+            android:id="@+id/latihansoal"
+            android:icon="@drawable/ic_spellcheck"
+            android:title="Latihan Soal (Beta)" />
+    </group>
+
+    <item android:title="Informasi Lain">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/loker"
+                    android:icon="@drawable/ic_work"
+                    android:title="Lowongan Pekerjaan" />
+                <item
+                    android:id="@+id/pengumuman"
+                    android:icon="@drawable/ic_announcement"
+                    android:title="Pengumuman Sekolah" />
+                <item
+                    android:id="@+id/keluar"
+                    android:icon="@drawable/ic_directions_run"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

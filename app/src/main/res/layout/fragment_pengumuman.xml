@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentDrawer.PengumumanFragment">
+    <FrameLayout
+        android:id="@+id/atas"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"/>
+    <FrameLayout
+        android:layout_below="@+id/atas"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#ff9f1c"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerpengumuman">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
